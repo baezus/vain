@@ -6,7 +6,15 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitab40bb0c2066f1c422b130119e831782
 {
+    public static $files = array (
+        '3a37ebac017bc098e9a86b35401e7a68' => __DIR__ . '/..' . '/mongodb/mongodb/src/functions.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
+        'M' => 
+        array (
+            'MongoDB\\' => 8,
+        ),
         'I' => 
         array (
             'Ilovepdf\\' => 9,
@@ -14,6 +22,10 @@ class ComposerStaticInitab40bb0c2066f1c422b130119e831782
     );
 
     public static $prefixDirsPsr4 = array (
+        'MongoDB\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mongodb/mongodb/src',
+        ),
         'Ilovepdf\\' => 
         array (
             0 => __DIR__ . '/..' . '/ilovepdf/ilovepdf-php/src',

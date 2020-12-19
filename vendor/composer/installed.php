@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '7fd0a02c11ab76b127242064b66f487e6695bd41',
+    'reference' => '1e2100991acffed3da4df7dd41fe19f0ba2c72d1',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '7fd0a02c11ab76b127242064b66f487e6695bd41',
+      'reference' => '1e2100991acffed3da4df7dd41fe19f0ba2c72d1',
     ),
     'ilovepdf/ilovepdf-php' => 
     array (
@@ -28,6 +28,15 @@
       array (
       ),
       'reference' => '593e689c0e7d69af76cc0bef2608db275bdab9dc',
+    ),
+    'mongodb/mongodb' => 
+    array (
+      'pretty_version' => '1.5.2',
+      'version' => '1.5.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '9480f994de9f70e2ae5a946b21e6fc04bf5a6c3c',
     ),
   ),
 );
